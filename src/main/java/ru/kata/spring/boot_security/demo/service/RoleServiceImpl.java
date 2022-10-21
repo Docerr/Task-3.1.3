@@ -21,11 +21,6 @@ public class RoleServiceImpl implements RoleService {
         this.roleDao = roleDao;
     }
 
-//    @Override
-//    @Transactional
-//    public Set<Role> getRoleByName(String roleName) {
-//        return roleDao.getRoleByName(roleName);
-//    }
 
     @Override
     public Set<Role> findRolesByName(String roleName) {
